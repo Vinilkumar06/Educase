@@ -8,11 +8,16 @@ function Login(){
             Lorem ipsum dolor sit amet,
             consectetur adipiscing elit.
         </p>
-        <form className='form-auth'>
-            <label>Email Address</label>
+
+        <form className='auth-form'>
+            <div className='input-group'>
+            <label >Email Address</label>
             <input type='email' placeholder='Enter email address' required='true'/>
+            </div>
+            <div className='input-group'>
             <label>Password</label>
-            <imput type='password' placeholder='Enter password' required='true'/>
+            <input type='password' placeholder='Enter password' required='true'/>
+            </div>
             <Link to="/profile" className='login-btn'>
                 Login
             </Link>

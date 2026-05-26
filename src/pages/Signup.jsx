@@ -3,10 +3,9 @@ import '../styles/Auth.css';
 
 function Signup() {
   return (
-    <div className="screen auth-screen">
+    <div className="auth-screen">
 
-      <h1>Create your PopX account</h1>
-    <p>---</p>
+      <h2>Create your PopX account</h2>
       <form className="auth-form">
 
         <div className="input-group">
